@@ -1,0 +1,8 @@
+name: Task
+description: A module to complete task.
+type: module
+core_version_requirement: ^8 || ^9
+package: Custom
+dependencies:
+  - block
+  

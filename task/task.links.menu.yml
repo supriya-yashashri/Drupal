@@ -1,0 +1,6 @@
+task.admin:
+  title: 'Task module settings'
+  description: 'Task module settings page link'
+  parent: system.admin_config_regional
+  route_name: task.config_form_settings
+  weight: 100

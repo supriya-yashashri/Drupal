@@ -1,0 +1,13 @@
+<?php
+
+  /**
+   * Implements hook_theme().
+   */
+  function task_theme($existing, $type, $theme, $path) {
+	return array(
+		'task_theme_block' => array(
+			'variables' =>array('city' => NULL, 'country' => NULL, 'timezone' =>NULL),
+		),	
+	);
+  }
+	

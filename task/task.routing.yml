@@ -1,0 +1,8 @@
+task.config_form_settings:
+  path: '/admin/config/taskconfigform'
+  defaults:
+    _form: 'Drupal\task\Form\TaskConfigForm'
+    _title: 'Task Config Form'
+  requirements:
+    _permission: 'administer site configuration'
+  

@@ -1,0 +1,40 @@
+<?php
+
+function task_schema() {
+  $schema['config_form'] = array(
+    'description' => 'The base table for config form.',
+    'fields' => array(
+      'cid' => array(
+        'description' => 'The primary identifier.',
+        'type' => 'serial',
+        'unsigned' => TRUE,
+        'not null' => TRUE,
+      ),
+      'country' => array(
+        'description' => 'country',
+        'type' => 'varchar',
+        'length' => 32,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'city' => array(
+        'description' => 'city',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+      'timezone' => array(
+        'description' => 'timezone',
+        'type' => 'varchar',
+        'length' => 255,
+        'not null' => TRUE,
+        'default' => '',
+      ),
+    ),
+    'primary key' => array(
+      'cid',
+    ),
+  );
+  return $schema;
+}
