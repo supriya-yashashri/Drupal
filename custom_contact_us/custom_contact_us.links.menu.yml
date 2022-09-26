@@ -1,0 +1,6 @@
+custom_contact_us.contact_us:
+  title: 'Custom form submitted data'
+  description: 'Listing of Custom Form Submission Data'
+  parent: system.admin_content
+  route_name: custom_contact_us.contact_us
+  weight: 100

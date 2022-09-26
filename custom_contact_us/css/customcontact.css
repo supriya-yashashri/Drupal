@@ -1,0 +1,54 @@
+#custom-contact-us-form{
+	background: #575757;
+    padding: 25px;
+	display:inline-block;
+}
+#custom-contact-us-form h1{
+	text-transform: uppercase;
+	margin: 0 0 20px 0;
+	font-weight: normal;
+	color:white;
+	display:inline-block;
+	width:100%;
+	font-size:20px;
+}
+#custom-contact-us-form .form-item{
+	width: 48%;
+	margin-bottom: 20px;
+	vertical-align: top;
+	display: inline-block;
+}
+#custom-contact-us-form .form-item-user-email,
+#custom-contact-us-form .form-item-first-name{
+	margin-right: 1%;
+}
+#custom-contact-us-form .form-item-user-phone-number,
+#custom-contact-us-form .form-item-last-name{
+	margin-left: 1%;
+}
+#custom-contact-us-form .form-item textarea,
+#custom-contact-us-form .form-item input,
+#custom-contact-us-form .form-item label{
+   color: white;
+}
+#custom-contact-us-form .form-item label{
+   margin-bottom: 5px;
+}
+#custom-contact-us-form .form-item input{
+	background: #9f9f9f;
+	border-radius: 3px;
+	width:100%;
+}
+#custom-contact-us-form .form-item textarea{
+	background: #9f9f9f;
+}
+#custom-contact-us-form .form-item-user-message{
+	display:inline-block;
+	width:100%;
+}
+#custom-contact-us-form .form-actions{
+	text-align:right;
+}
+#custom-contact-us-form .form-actions button{
+	margin:0;
+}

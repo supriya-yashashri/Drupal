@@ -1,0 +1,7 @@
+name: 'Custom Contact Us'
+type: module
+description: 'Custom contact form to achieve the complex functionality.'
+core_version_requirement: ^8 || ^9
+package: 'Custom'
+dependencies:
+  - block
